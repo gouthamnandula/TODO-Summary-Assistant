@@ -1,0 +1,152 @@
+body {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 520px;
+  margin: 48px auto;
+  background: rgba(34, 36, 49, 0.98);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(30, 30, 60, 0.44);
+  padding: 36px 30px 30px 30px;
+  border: 1.5px solid #4f5b93;
+}
+
+h1 {
+  text-align: center;
+  color: #a18fff;
+  margin-bottom: 28px;
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  text-shadow: 0 2px 8px #3d2c8d33;
+}
+
+form {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 11px 14px;
+  border-radius: 8px;
+  border: 1.5px solid #6a82fb;
+  background: #23243a;
+  color: #f3f4fa;
+  font-size: 1rem;
+  box-shadow: 0 1px 4px #6a82fb22;
+  outline: none;
+  transition: border-color 0.2s, background 0.2s;
+}
+
+input[type="text"]:focus {
+  border-color: #a18fff;
+  background: #2d2e4a;
+}
+
+button {
+  background: linear-gradient(90deg, #6a82fb 0%, #fc5c7d 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 2px 8px #6a82fb33;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #fc5c7d 0%, #6a82fb 100%);
+  transform: translateY(-2px) scale(1.05);
+}
+
+ol {
+  padding-left: 20px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+  background: #2d2e4a;
+  border-radius: 8px;
+  padding: 10px 14px;
+  box-shadow: 0 1px 4px #6a82fb22;
+  border-left: 4px solid #6a82fb;
+  transition: box-shadow 0.2s;
+}
+
+li:hover {
+  box-shadow: 0 4px 16px #6a82fb33;
+}
+
+li input[type="checkbox"] {
+  margin-right: 12px;
+  accent-color: #a18fff;
+  width: 18px;
+  height: 18px;
+}
+
+li span {
+  flex: 1;
+  font-size: 1rem;
+  color: #f3f4fa;
+  padding: 0 5px;
+  transition: color 0.2s;
+}
+
+li span[style*="line-through"] {
+  color: #5b5b7a;
+}
+
+li button {
+  margin-left: 10px;
+  background: linear-gradient(90deg, #fc466b 0%, #3f5efb 100%);
+  color: #fff;
+  padding: 7px 14px;
+  font-size: 0.95rem;
+  border-radius: 5px;
+  box-shadow: none;
+  font-weight: 500;
+}
+
+li button:hover {
+  background: linear-gradient(90deg, #3f5efb 0%, #fc466b 100%);
+}
+
+.summarize-btn {
+  width: 100%;
+  margin-top: 28px;
+  background: linear-gradient(90deg, #43cea2 0%, #185a9d 100%);
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  padding: 13px 0;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 0 2px 12px #185a9d33;
+}
+
+.summarize-btn:hover {
+  background: linear-gradient(90deg, #185a9d 0%, #43cea2 100%);
+  transform: scale(1.03);
+}
+
+.message {
+  margin-top: 24px;
+  text-align: center;
+  color: #43cea2;
+  font-weight: bold;
+  font-size: 1.1rem;
+  background: #1b223c;
+  border-radius: 8px;
+  padding: 10px 0;
+  box-shadow: 0 1px 4px #43cea233;
+  border: 1px solid #43cea2;
+}
